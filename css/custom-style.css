@@ -1,0 +1,540 @@
+﻿/*---anh nam---*/
+.company-info {
+    margin: 0 0 12px;
+    color: #7a7992;
+}
+
+    .company-info a {
+        text-decoration: none;
+        color: #7a7992;
+    }
+
+        .company-info a:hover {
+            color: black;
+            text-decoration: none;
+        }
+
+.hb-slidercontent {
+    width: 100%;
+    text-align: center;
+}
+
+.hb-sliderimg {
+    padding: 0px;
+}
+
+.item-slide {
+    height: 613px;
+}
+
+.img-home {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.hb-slidercontent h1 span {
+    font-size: 240px;
+    padding-bottom: 80px;
+}
+
+a, .clr, p a, p a:hover, a:hover, a:focus, a:active, .hb-info li a:hover, .hb-navigation ul li:hover a, .v2 .hb-info li span a:hover, .hb-navigation ul li .sub-menu li a:hover, .v3 .hb-cartarea a:hover, .v3 .hb-searcharea a:hover, .v4 .hb-searcharea a:hover, .v4 .hb-cartarea a:hover, .hb-homeslider.v4 .hb-slidercontent a:hover, .hb-whychooseus-list li:after, .hb-counter h3, .pricingcontent h3 span, .hb-pricingbox:hover .hb-btn, .hb-pricingbox.active .hb-btn, .hb-uthername h3, .hb-filterbale-nav li a:hover, .hb-filterbale-nav li a.active, .hb-testimonialsthumbslider .hb-prev:hover, .hb-testimonialsthumbslider .hb-next:hover, .hb-productscontent h3 span, .hb-pricinglistbox li span, .hb-aboutusvideo .hb-video-btn:hover, .hb-gift-price span, .hb-categories ul li:after, .hb-postmeta-area .hb-postmeta em, .hb-posttage li a:hover, .hb-bloggrid.blogfullwidth .hb-posttitle h3 a:hover, .hb-pagination ul li a:hover, .hb-blogdetails .hb-treatmentlist li:before, .hb-blogdetails .hb-uthername, .hb-socialshare ul li a:hover, .hb-comment-date, .hb-panel h4 a:hover, .cart-table .price, .cart-list .price, .hb-cart-widget .price, .hb-content-block .hb-btn, .hb-shoparea-detail .price, .hb-categories.hb-categories2 ul a span, .hb-categories.hb-categories2 ul a:hover, .hb-shoparea-detail .social-network a:hover, .hb-pricingplan .tab-content .price {
+    color: #ca1391;
+}
+
+.hb-sectiontitle h2 span {
+    color: #ca1391;
+}
+
+.hb-sectiontitle:after {
+    background: initial;
+}
+
+.content-body {
+    padding: 0px;
+}
+
+.cms-form .search__input__item_child {
+    width: initial;
+    display: flex;
+}
+
+    .cms-form .search__input__item_child .btn {
+        margin-right: 5px;
+    }
+
+.cms-content .cms-content-top .cms-action a.btn-active {
+    color: #fff;
+    padding: 2px 0;
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    font-size: 13px;
+    background: #4cb550;
+    pointer-events: all;
+    cursor: pointer;
+    outline: none;
+    transition: .3s all linear;
+}
+
+    .cms-content .cms-content-top .cms-action a.btn-active:hover {
+        opacity: .8;
+    }
+
+.career-main .career-pill ul li.active a {
+    text-decoration: none;
+}
+
+.career-main .career-pill ul li a {
+    text-decoration: none;
+}
+
+.career-content div.tab-pane {
+    border-radius: initial;
+    border: initial;
+    background: initial;
+}
+
+.career-f-group .career-f-input, .career-f-group .career-f-select, .career-f-group .career-f-textarea {
+    padding-left: inherit;
+}
+
+.career-main {
+    margin: 0px;
+}
+
+.table > thead:first-child > tr:first-child > th {
+    border-top: initial;
+}
+
+table > tbody > tr > td,
+table thead tr th {
+    text-align: initial;
+}
+
+.hb-postimage:before, .hb-gallerycontent {
+    background: none;
+}
+
+a.active {
+    color: #ca1391 !important;
+}
+
+.hb-whychooseus-img img {
+    -webkit-box-shadow: initial;
+    box-shadow: initial;
+}
+
+strong {
+    color: initial;
+}
+
+.not-deco {
+    text-decoration: none;
+}
+
+    .not-deco:hover {
+        text-decoration: none;
+    }
+
+.slider-title h3 {
+    font-size: 270px;
+    line-height: 1;
+    color: #fff;
+    font-weight: 100;
+    text-transform: initial;
+    padding-top: 10px;
+    font-family: "Arizonia", cursive;
+}
+
+.sec-aboutus .sec-aboutus-desc {
+    max-height: 440px;
+}
+
+.page-theme #toggleTime ul li {
+    text-align: right;
+}
+
+.schedule-active {
+    background: white;
+    color: #ca1391;
+}
+
+
+ .box-one {
+    z-index: 999;
+    position: fixed;
+    border-radius: 100%;
+    border: 2px solid;
+    opacity: .5;
+    bottom: 75px;
+    right: 5px;
+    width: 90px;
+    height: 90px;
+    border-color: #ca1391;
+}
+
+ .box-two {
+    opacity: 0.75;
+    z-index: 999;
+    position: fixed;
+    border-radius: 100%;
+    bottom: 85px;
+    right: 15px;
+    width: 70px;
+    height: 70px;
+    /*    background-color: #ca292980;*/
+}
+
+ .box-icon {
+    position: fixed;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    z-index: 999;
+    background-size: 70%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    bottom: 100px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: #ca1391;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+}
+
+@keyframes tada {
+    0% {
+        transform: scale(1);
+    }
+
+    10%, 20% {
+        transform: scale(0.9) rotate(-3deg);
+    }
+
+    30%, 50%, 70%, 90% {
+        transform: scale(1.1) rotate(3deg);
+    }
+
+    40%, 60%, 80% {
+        transform: scale(1.1) rotate(-3deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(0);
+        opacity: 1;
+    }
+}
+
+ .tada {
+    -webkit-animation-name: tada;
+    animation-name: tada;
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.3);
+        -ms-transform: scale(.3);
+        transform: scale(.3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+ .zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+ .pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+ .animated.infinite {
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+ .animated {
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+#hb-homeslider .item {
+    height: auto;
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    #hb-gallery .hb-gallery-area .hb-galleryimg.gallery-item {
+        width: 33.333333%;
+        padding: 5px;
+    }
+
+    #hb-gallery #filter-masonry .masonry-grid {
+        width: 33.33333%;
+    }
+
+    #hb-gallery .hb-gallery-area #filter-masonry .hb-galleryimg.gallery-item {
+        width: 100%;
+    }
+}
+
+#back-top.active {
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 10px;
+}
+
+.gallery-custom {
+    display: none;
+}
+
+.list-service-custom {
+    display: inline-flex;
+}
+
+.hb-stars {
+    height: 24px;
+}
+
+.hb-uthername h3 {
+    margin: 0 0 5px;
+}
+
+.hb-postimage a img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+textarea.form-control {
+    resize: vertical;
+    height: auto;
+}
+
+.ui-datepicker {
+    z-index: 10 !important;
+}
+
+.page-theme span.error {
+    display: block;
+}
+
+.ld {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    opacity: 0.6;
+}
+
+.gallery-item img, .cms-avatar img {
+    height: 380px;
+    object-fit: cover;
+}
+
+.cms-item .cms-avatar img {
+    height: 200px;
+}
+
+.hb-cart li h3 span {
+    color: #ca1391;
+}
+
+.hb-total {
+    color: #ca1391;
+}
+
+.page-theme .hb-cartarea a {
+    position: relative;
+}
+
+.badge-card {
+    position: absolute;
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    min-width: 20px;
+    border-radius: 100%;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    background: var(--main-color);
+    top: -12px;
+    right: -12px;
+}
+
+.book-head-mobile {
+    display: none;
+}
+
+#payment-stripe {
+    padding-top: 15px;
+}
+
+.stripe-button-el {
+    display:none!important;
+}
+
+@media screen and (max-width: 479px) {
+    .hb-addnav {
+        padding: 38px 0 30px 10px;
+    }
+
+    .hb-slidercontent h1 span {
+        font-size: 95px;
+    }
+
+    .item-slide {
+        height: initial;
+    }
+
+    .slider-title h3 {
+        font-size: 95px;
+    }
+
+    .gallery-custom {
+        display: initial;
+    }
+
+    .gallery-item img, .cms-avatar img {
+        height: 110px;
+    }
+
+    .hb-logo {
+        width: 95px;
+    }
+
+    .hb-addnav {
+        padding: 38px 0 30px 0px;
+    }
+
+    .book-head-mobile {
+        display: block;
+        width: 171px;
+        float: left;
+        padding: 26px 0px;
+        text-align: center;
+    }
+    .hb-cart li .hb-btn {        
+        line-height: 33px;
+    }
+    .hb-shop-detail .cart-list span {
+        margin: 0px;
+    }
+    .sub-menu{
+        display:block;
+    }
+}
+.tox .tox-toolbar, .tox .tox-toolbar__overflow, .tox .tox-toolbar__primary{
+    top:98px!important;
+}
+@media screen and (min-width: 798px) {
+    .hb-navigation > ul > li {
+        padding: 40px 10px;
+    }
+}
+.gallery {
+    height: 380px;
+    object-fit: cover;
+}
+.sectionBooking #timeFrame ul li.timeItem {
+    min-width: calc(100% / 5);
+    padding-right: 5px;
+}
+@media screen and (max-width: 479px) {
+    .gallery {
+        height: 110px;
+        padding: 5px;
+    }
+    .sectionBooking #timeFrame ul li.timeItem {
+        min-width: calc(100% / 3);
+        padding-right: 5px;
+    }
+}
+/*------20-09*/
+@media screen and (min-width: 768px) {
+    .page-theme .form-style {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .page-theme .group-form {
+        position: relative;
+        max-width: 30%;
+        margin: 0 auto 2rem;
+    }
+}
+.sectionBooking #timeFrame ul li.timeItem.timeActive p {
+    background: var(--main-color);
+    color: #fff;
+}
+
+.sectionBooking #timeFrame ul li.timeItem p {
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    padding: 8px 10px;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    transition: .3s all ease-in;
+    border-radius: 3px;
+    background: #fff;
+}
+.hb-post {
+    height: 400px;
+}
+.best-choice {
+    opacity: 1;
+    color: #bf21ad;
+    position: absolute;
+    right: 0;
+    width: 35px;
+    height: 35px;
+}
+.scroll-x {
+    padding-bottom:0px;
+}
+.download-app {
+    padding: 0px;
+    border-radius: 0px !important;
+}
+.app-customer {
+    padding: 15px 0px;
+}
