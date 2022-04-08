@@ -3886,5 +3886,75 @@ body.page-cms {
 }
 
 .section-faq {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+.section-faq .display-flex {
+    flex-wrap: wrap;
+}
+
+.section-faq .panel-group .panel + .panel {
+    margin-top: 20px;
+}
+
+.section-faq .panel-group .panel {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border: 0;
+    background-color: #f6f7fb;
+}
+
+.section-faq .panel-group .panel-default > .panel-heading {
+    border: 0;
+    background-color: #f6f7fb;
+    padding: 15px;
+}
+
+.section-faq .panel-group .panel-default > .panel-heading .panel-title {
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.section-faq .panel-group .panel-default > .panel-heading .panel-title > a {
+    display: flex;
+    padding-right: 50px;
+    position: relative;
+    color: #333333 !important;
+}
+
+.section-faq .panel-group .panel-default > .panel-heading .panel-title > a:before {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: 'ElegantIcons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    content: "\4c";
+    font-size: 25px;
+}
+
+.section-faq .panel-group .panel-default > .panel-heading .panel-title > a[aria-expanded=true]:before {
+    content: "\4b";
+}
+
+.section-faq .panel-group .panel-default .panel-body {
+    border: 0;
+    padding-top: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+    .section-faq .salon-title {
+        font-size: 2.5rem;
+    }
+    .section-faq .panel-group .panel-default > .panel-heading .panel-title {
+        font-size: 16px;
+    }
+
 }
