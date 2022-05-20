@@ -3958,6 +3958,7 @@ body.page-cms {
         font-size: 16px;
     }
 }
+
 .section-review .new-title {
     position: relative;
     display: -webkit-box;
@@ -4356,6 +4357,22 @@ body.page-cms {
     font-size: 1.5em !important;
 }
 
+
+.section-review {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.review-background {
+    position: fixed;
+    top: 120px;
+    left: -50px;
+    transition: .3s all ease-in;
+    width: 100%;
+}
+
+
 @media screen and (max-width: 767px) {
     .section-review .new-title {
         display: block;
@@ -4436,10 +4453,10 @@ body.page-cms {
         margin-top: 15px;
         width: 100%;
     }
+
     .section-review .review-info .star .star-item {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
     }
-
 }
