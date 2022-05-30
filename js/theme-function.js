@@ -354,4 +354,27 @@ $(document).ready(function () {
 	}
 
 	customSelect();
+
+	$('#review-slider').owlCarousel({
+		margin: 30,
+		nav: false,
+		autoplay: false,
+		autoplayTimeout: 8000,
+		statePadding: 2,
+		smartSpeed: 1000,
+		dots: true,
+		autoplayHoverPause: true,
+		loop: true,
+		responsive: {
+			0: {
+				items: 1,
+			},
+			600: {
+				items: 2,
+			},
+			1000: {
+				items: 3,
+			}
+		}
+	});
 });
