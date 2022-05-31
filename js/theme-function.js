@@ -358,7 +358,7 @@ $(document).ready(function () {
 	$('#review-slider').owlCarousel({
 		margin: 30,
 		nav: false,
-		autoplay: false,
+		autoplay: true,
 		autoplayTimeout: 8000,
 		statePadding: 2,
 		smartSpeed: 1000,
