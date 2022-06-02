@@ -4471,10 +4471,10 @@ body.page-cms {
     height: 40px;
     background: #fff;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 30px;
     -webkit-box-shadow: none;
     box-shadow: none;
-    padding: 7px 20px;
+    padding: 4px 20px;
     border-radius: 4px;
     display: inline-block;
     vertical-align: middle;
@@ -4487,6 +4487,14 @@ body.page-cms {
     transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
     position: relative;
     user-select: none;
+}
+
+.select-staff > span img {
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .select-staff > span:before {
@@ -4539,7 +4547,7 @@ body.page-cms {
     padding-right: 10px;
 }
 
-.select-staff ul > li > a .text img{
+.select-staff ul > li > a .text img {
     height: 50px;
     width: 50px;
     overflow: hidden;
