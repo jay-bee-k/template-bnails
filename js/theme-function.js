@@ -334,14 +334,22 @@ $(document).ready(function () {
 				});
 
 				let optionSelector = $(item).children('ul').find('li > a');
-				optionSelector.click(function () {
+				/*optionSelector.click(function () {
 					if (!$(this).hasClass('active')) {
 						optionSelector.removeClass('active');
 						$(this).addClass('active');
 						selector.html($(this).find('.text').html());
 					}
 					$(item).removeClass('is-focus');
-				});
+				});*/
+                $(item).on('click', 'li > a', function () {
+                    if (!$(this).hasClass('active')) {
+                        optionSelector.removeClass('active');
+                        $(this).addClass('active');
+                        selector.html($(this).find('.text').html());
+                    }
+                    $(item).removeClass('is-focus');
+                });
 			});
 
 			$(document).on("mouseup", function (e) {
